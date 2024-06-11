@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
-import axios from "axios";
+
 import tweetsRouter from "./routes/tweets.js";
 import morgan from "morgan";
 
